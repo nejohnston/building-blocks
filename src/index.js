@@ -7,10 +7,16 @@ import {
 } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
+import HomeContainer from './containers/Home';
+
 const BuildingBlocks = () => (
 	<Router>
 		<Switch>
-			<Route exact />
+			<Route
+				exact
+				path="/"
+				component={HomeContainer}
+			/>
 		</Switch>
 	</Router>
 );
