@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {
 	BrowserRouter as Router,
-	Switch
+	Switch,
+	Route
 } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
