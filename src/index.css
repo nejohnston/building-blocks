@@ -137,9 +137,7 @@ table {
 }
 
 body {
-	background: linear-gradient(#6f86d6, #48c6ef);
-	background-attachment: fixed;
-	background-size: cover;
+	background: '#000';
 	display: flex;
 	flex-direction: column;
 	font-family: 'Roboto', sans-serif;
