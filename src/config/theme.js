@@ -2,9 +2,9 @@ import { createMuiTheme } from '@material-ui/core';
 
 export default createMuiTheme({
 	palette: {
-		textColor: blueGrey900,
-		alternateTextColor: white,
+		textColor: '#66BB6A',
+		alternateTextColor: '#fff',
 		primaryColor: '#66BB6A',
-		accentColor: blueGrey900
+		accentColor: '#66BB6A'
 	}
 });
