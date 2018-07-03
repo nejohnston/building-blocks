@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './styles';
+
 const Footer = () => (
-    <footer>
-        <div />
-    </footer>
+  <footer className='appFooter'>
+    <div>my name is nicholas</div>
+  </footer>
 );
 
 export default Footer;

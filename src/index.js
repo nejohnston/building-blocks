@@ -10,14 +10,14 @@ import muiTheme from './config/theme';
 import './index.css';
 
 const BuildingBlocks = () => (
-    <MuiThemeProvider muiTheme={muiTheme}>
-        <Router>
-            <Switch>
-                <Route exact path="/" component={HomeContainer} />
-                <Route path="/about" component={About} />>
-            </Switch>
-        </Router>
-    </MuiThemeProvider>
+  <MuiThemeProvider muiTheme={muiTheme}>
+    <Router>
+      <Switch>
+        <Route exact path='/' component={HomeContainer} />
+        <Route path='/about' component={About} />>
+      </Switch>
+    </Router>
+  </MuiThemeProvider>
 );
 
 ReactDOM.render(<BuildingBlocks />, document.getElementById('root'));
