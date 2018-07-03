@@ -1,5 +1,9 @@
-{
-  /* <footer className="appFooter">
-	{authenticated && <p>© 2017 Boomtown Corp. All Rights Reserved</p>}
-</footer>; */
-}
+import React from 'react';
+
+const Footer = () => (
+    <footer>
+        <div />
+    </footer>
+);
+
+export default Footer;
