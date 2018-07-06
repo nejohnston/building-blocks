@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
@@ -7,10 +7,8 @@ import Footer from '../Footer';
 
 const Layout = ({ children }) => (
   <div className='appContentWrapper'>
-    <div className='appHeader'>
-      <HeaderBar />
-    </div>
-    <div className='appContent'>{children}</div>
+    <HeaderBar />
+    <div className='appContent'>hello</div>
     <Footer />
   </div>
 );
@@ -23,4 +21,4 @@ Layout.propTypes = {
   children: PropTypes.node
 };
 
-export default withRouter(Layout);
+export default Layout;

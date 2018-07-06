@@ -16,7 +16,7 @@ const BuildingBlocks = () => (
       <Layout>
         <Switch>
           <Route exact path='/' component={HomeContainer} />
-          <Route path='/about' component={About} />>
+          <Route path='/about' component={About} />
         </Switch>
       </Layout>
     </Router>
