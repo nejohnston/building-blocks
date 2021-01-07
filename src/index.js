@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
 import Layout from './components/Layout';
-import HomeContainer from './containers/Home';
+import Home from './containers/Home';
 import About from './containers/About';
 import muiTheme from './config/theme';
 import './index.css';
@@ -15,7 +15,7 @@ const BuildingBlocks = () => (
     <Router>
       <Layout>
         <Switch>
-          <Route exact path='/' component={HomeContainer} />
+          <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
         </Switch>
       </Layout>

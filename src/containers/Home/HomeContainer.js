@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import SimpleCard from "../../components/Card";
 
 class HomeContainer extends Component {
   render() {
     return (
       <div>
-        <div>asdf</div>
+        <SimpleCard />
       </div>
     );
   }

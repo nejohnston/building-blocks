@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar } from '@material-ui/core/AppBar';
+import AppBar from '@material-ui/core/AppBar';
 import './styles.css';
 
 const HeaderBar = () => (
@@ -8,4 +8,4 @@ const HeaderBar = () => (
   </div>
 );
 
-export default HeaderBar;
+export default HeaderBar
